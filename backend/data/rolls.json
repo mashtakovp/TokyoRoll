@@ -1,0 +1,147 @@
+[
+    {
+        "name" : "SanDisk Ultra",
+        "price" : "45.89",
+        "description" : "Ultra-fast cards (2).",
+        "ratings" : 4.5,
+        "images" : [{
+            "public_id" : "products/dsvbpny402gelwugv2le",
+            "url" : "https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+        }],
+        "category" : "fried",
+        "seller" : "Ebay",
+        "stock" : 50,
+        "numOfReviews" : 32,
+        "reviews": []
+    },
+    {
+        "name" : "CAN USB FD Adapter (GC-CAN-USB-FD)",
+        "price" : "315.00",
+        "description" : "Monitor a CAN network.",
+        "ratings" : 1.65,
+        "images" : [{
+            "public_id" : "products/61oXGZ60GfL_fixco9",
+            "url" : "https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+        }],
+        "category" : "fried",
+        "seller" : "Amazon",
+        "stock" : 0,
+        "numOfReviews" : 2,
+        "reviews": []
+    },
+    {
+        "name" : "CHARMOUNT Full Motion TV Wall Mount Swivel",
+        "price" : "26.99 ",
+        "description" : "CHARMOUNT TV MOUNT.",
+        "ratings" : 3.5,
+        "images" : [{
+            "public_id" : "products/chairmount_nuubea",
+            "url" : "https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+        }],
+        "category" : "fried",
+        "seller" : "Amazon",
+        "stock" : 1,
+        "numOfReviews" : 12,
+        "reviews": []
+    },
+    {
+        "name" : "Bose QuietComfort 35 II Wireless Bluetooth Headphones",
+        "price" : "299.00 ",
+        "description" : "What happens when you clear away the noisy distractions of",
+        "ratings" : 4.5,
+        "images" : [{
+            "public_id" : "products/headphones_t2afnb",
+            "url" : "https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+        }],
+        "category" : "fried",
+        "seller" : "Amazon",
+        "stock" : 11,
+        "numOfReviews" : 112,
+        "reviews": []
+    },
+    {
+        "name" : "Apple AirPods with Charging Case (Wired)",
+        "price" : "126.99 ",
+        "description" : "AirPods with Charging Case: More than 24 hours listening time",
+        "ratings" : 4.8,
+        "images" : [{
+            "public_id" : "products/airpords_e5cqqr",
+            "url" : "https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+        }],
+        "category" : "fried",
+        "seller" : "Amazon",
+        "stock" : 122,
+        "numOfReviews" : 2671,
+        "reviews": []
+    },
+    {
+        "name" : "Cable Boom Microphone - Volume Control for Playstation PS4 or Xbox",
+        "price" : "27.99",
+        "description" : "DESIGN INFO - 3.5mm male to 2.5mm male audio cable adapter with Upgraded Flexible,",
+        "ratings" : 4.1,
+        "images" : [{
+            "public_id" : "products/eahhtj1bkn1k9gjgd3hn",
+            "url" : "https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+        }],
+        "category" : "fried",
+        "seller" : "Amazon",
+        "stock" : 1123,
+        "numOfReviews" : 6,
+        "reviews": []
+    },
+    {
+        "name" : "Nikon D3500 W/ AF-P",
+        "price" : "496.95",
+        "description" : "You don't need to be a photographer",
+        "ratings" : 4.7,
+        "images" : [{
+            "public_id" : "products/camera_ridc0i",
+            "url" : "https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+        }],
+        "category" : "fried",
+        "seller" : "Amazon",
+        "stock" : 131,
+        "numOfReviews" : 222,
+        "reviews": []
+    },
+    {
+        "name" : "Apple MacBook Air",
+        "price" : "949.99",
+        "description" : "Stunning 13.3-inch Retina display",
+        "ratings" : 4.9,
+        "images" : [{
+            "public_id" : "products/macbook_o2cj2k",
+            "url" : "https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+        }],
+        "category" : "fried",
+        "seller" : "Amazon",
+        "stock" : 0,
+        "numOfReviews" : 56,
+        "reviews": []
+    },
+    {
+        "name" : "Kauffman ",
+        "price" : "2.75",
+        "description" : "McIntosh is a pretty red/green apple",
+        "ratings" : 5,
+        "images" : [
+            {
+                "public_id" : "products/wmoa49q9e70ze9xtcra2",
+                "url" : "https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+            },
+            {
+                "public_id" : "products/i0k1wdwi5hrpmzwxvsds",
+                "url" : "https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg" 
+            },
+            {
+                "public_id" : "products/bshmuo9qisfhz4azvnsd",
+                "url" : "https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+            }
+    ],
+        "category" : "fried",
+        "seller" : "Kauffman's Fruit Farm & Market",
+        "stock" : 500,
+        "numOfReviews" : 1,
+        "reviews": []
+    }
+]
