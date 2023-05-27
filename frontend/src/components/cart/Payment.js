@@ -10,7 +10,7 @@ import { createOrder, clearErrors } from '../../actions/orderActions'
 import { useStripe, useElements, CardNumberElement, CardExpiryElement, CardCvcElement } from '@stripe/react-stripe-js'
 
 import axios from 'axios'
-
+import { useNavigate } from 'react-router-dom'
 const options = {
     style: {
         base: {
@@ -22,13 +22,13 @@ const options = {
     }
 }
 
-const Payment = ({ history }) => {
+const Payment = () => {
 
     const alert = useAlert();
     const stripe = useStripe();
     const elements = useElements();
     const dispatch = useDispatch();
-
+    const navigate = useNavigate();
     const { user } = useSelector(state => state.auth)
     const { cartItems, shippingInfo } = useSelector(state => state.cart);
     const { error } = useSelector(state => state.newOrder)
@@ -108,7 +108,7 @@ const Payment = ({ history }) => {
 
                     dispatch(createOrder(order))
 
-                    history.push('/success')
+                    navigate('/success')
                 } else {
                     alert.error('There is some issue while payment processing')
                 }
@@ -130,9 +130,9 @@ const Payment = ({ history }) => {
             <div className="row wrapper">
                 <div className="col-10 col-lg-5">
                     <form className="shadow-lg" onSubmit={submitHandler}>
-                        <h1 className="mb-4">Card Info</h1>
+                        <h1 className="mb-4">Оплата заказа</h1>
                         <div className="form-group">
-                            <label htmlFor="card_num_field">Card Number</label>
+                            <label htmlFor="card_num_field">Номер карты</label>
                             <CardNumberElement
                                 type="text"
                                 id="card_num_field"
@@ -142,7 +142,7 @@ const Payment = ({ history }) => {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="card_exp_field">Card Expiry</label>
+                            <label htmlFor="card_exp_field">Дата ок.действия</label>
                             <CardExpiryElement
                                 type="text"
                                 id="card_exp_field"
@@ -152,7 +152,7 @@ const Payment = ({ history }) => {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="card_cvc_field">Card CVC</label>
+                            <label htmlFor="card_cvc_field">CVC</label>
                             <CardCvcElement
                                 type="text"
                                 id="card_cvc_field"
@@ -167,7 +167,7 @@ const Payment = ({ history }) => {
                             type="submit"
                             className="btn btn-block py-3"
                         >
-                            Pay {` - ${orderInfo && orderInfo.totalPrice}`}
+                            Оплатить {` - ${orderInfo && orderInfo.totalPrice}`}
                         </button>
 
                     </form>

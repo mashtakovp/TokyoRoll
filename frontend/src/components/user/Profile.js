@@ -33,7 +33,7 @@ const Profile = () => {
                             <h4>Почта</h4>
                             <p>{user.email}</p>
 
-                            <h4>Joined On</h4>
+                            <h4>Дата регистрации</h4>
                             <p>{String(user.createAt).substring(0, 10)}</p>
 
                             {user.role !== 'admin' && (

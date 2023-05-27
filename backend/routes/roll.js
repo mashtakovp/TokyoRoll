@@ -9,12 +9,14 @@ const {
     deleteRoll,
     createRollReview,
     getRollReviews,
-    deleteReview
+    deleteReview,
+    getAdminRolls
 
 
 } = require('../controllers/rollController')
 const { isAuthenticatedUser, authorizeRoles } = require('../middlewares/auth')
 router.route('/rolls').get(getRolls);
+router.route('/admin/rolls').get(getAdminRolls);
 router.route('/roll/:id').get(getSingleRoll);
 router.route('/admin/roll/new').post(isAuthenticatedUser, authorizeRoles('admin'), newRoll);
 router.route('/admin/roll/:id')

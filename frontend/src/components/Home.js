@@ -160,10 +160,10 @@ const Home = () => {
                                 itemsCountPerPage={resPerPage}
                                 totalItemsCount={rollsCount}
                                 onChange={setCurrentPageNo}
-                                nextPageText={'Next'}
-                                prevPageText={'Prev'}
-                                firstPageText={'First'}
-                                lastPageText={'Last'}
+                                nextPageText={'След'}
+                                prevPageText={'Пр'}
+                                firstPageText={'Первая'}
+                                lastPageText={'Последняя'}
                                 itemClass="page-item" // bootstrap
                                 linkClass="page-link"
                             />

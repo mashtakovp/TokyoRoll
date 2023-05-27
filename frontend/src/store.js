@@ -1,16 +1,29 @@
 import { legacy_createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension'
-import { rollsReducer, rollDetailsReducer } from './reducers/rollReducers'
-import {authReducer, userReducer, forgotPasswordReducer } from './reducers/userReducers'
+import { rollsReducer, newRollReducer, rollReducer, rollDetailsReducer, newReviewReducer, rollReviewsReducer, reviewReducer } from './reducers/rollReducers'
+import {authReducer, userReducer, forgotPasswordReducer, allUsersReducer, userDetailsReducer } from './reducers/userReducers'
 import { cartReducer } from './reducers/cartReducers';
+import { newOrderReducer, myOrdersReducer, orderDetailsReducer, allOrdersReducer, orderReducer } from './reducers/orderReducers'
 const reducer = combineReducers({
     rolls: rollsReducer,
     rollDetails: rollDetailsReducer,
     auth: authReducer,
     user: userReducer,
     forgotPassword: forgotPasswordReducer,
-    cart: cartReducer
+    cart: cartReducer,
+    newOrder: newOrderReducer,
+    myOrders: myOrdersReducer,
+    allOrders: allOrdersReducer,
+    orderDetails: orderDetailsReducer,
+    order: orderReducer,
+    newReview: newReviewReducer,
+    review: reviewReducer,
+    rollReviews: rollReviewsReducer,
+    newRoll: newRollReducer,
+    roll: rollReducer,
+    allUsers: allUsersReducer,
+    userDetails: userDetailsReducer,
 })
 
 let initialState = {

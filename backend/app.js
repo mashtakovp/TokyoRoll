@@ -11,6 +11,8 @@ app.use(bodyparser.urlencoded({ extended: true}));
 app.use(cookieParser());
 app.use(fileUpload());
 
+const dotenv = require('dotenv');
+dotenv.config({path: `backend/config/config.env`})
 
 // Import all routes
 const rolls = require('./routes/roll');

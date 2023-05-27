@@ -32,7 +32,9 @@ nav {
 }
 
 #search_btn {
-  background-color: #febd69;
+  background-color: #ff0000;
+  border-radius: 0.5rem;
+  
 }
 
 .input-group {
@@ -41,23 +43,28 @@ nav {
 }
 
 #search_field {
-  height: 2.4rem;
+  background-color: #ffffff;
+  height: 3rem;
   padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-family: calibri;
+  color: black;
+  font-weight: bold;
 }
 
 #login_btn,
 #view_btn {
-  background-color: #febd69;
-  padding: 0.4rem 1.8rem;
+  background-color: #ff0000;
+  border-radius: 0.5rem;
   font-family: calibri;
+  padding: 0.5rem 0.5rem;
+  color: black;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 #cart {
-  font-size: 1rem;
-  color: white;
-}
-
-#cart_count {
   background-color: #febd69;
   padding: 0.2rem 0.5rem;
   border-radius: 0.2rem;
@@ -66,8 +73,17 @@ nav {
   font-size: 0.9rem;
 }
 
+#cart_count {
+  background-color: #ffffff;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  color: black;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
 /* Home page */
-#products_heading {
+#rolls_heading {
   margin-top: 1.8rem;
 }
 
@@ -93,7 +109,7 @@ nav {
 }
 
 #view_btn {
-  background-color: #fa9c23;
+  background-color: #ff2600;
   color: white;
 }
 
@@ -148,13 +164,13 @@ footer {
   color: #f8ce0b;
 }
 
-/* Product Details Page */
-#product_id {
+/* roll Details Page */
+#roll_id {
   color: grey;
   font-size: 0.8rem;
 }
 
-#product_price {
+#roll_price {
   font-size: 2rem;
   font-weight: bold;
 }
@@ -162,12 +178,12 @@ footer {
 #cart_btn,
 #review_btn {
   border-radius: 2rem;
-  background-color: #fa9c23;
+  background-color: #ff0000;
   border: none;
   padding: 0.5rem 2rem;
 }
 
-#product_seller {
+#roll_seller {
   color: grey;
   font-size: 0.9rem;
 }
@@ -186,7 +202,7 @@ footer {
   color: green;
 }
 
-#product_image {
+#roll_image {
   margin-top: 9rem;
 }
 
@@ -207,8 +223,8 @@ footer {
   height: 64px;
   margin: 8px;
   border-radius: 50%;
-  border: 6px solid #fa9c23;
-  border-color: #fa9c23 transparent;
+  border: 6px solid #fc0000;
+  border-color: #ff0000 transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
 @keyframes lds-dual-ring {
@@ -240,15 +256,15 @@ footer {
 }
 
 #card_item_price {
-  color: #febd69;
+  color: #ff0000;
   font-weight: bold;
   font-size: 1.4rem;
 }
 
 #checkout_btn,
 .review-btn {
-  background-color: #fa9c23;
-  border-color: #fa9c23;
+  background-color: #ff0000;
+  border-color: #ff0000;
   margin-top: 2rem;
   border-radius: 5rem;
 }
@@ -307,8 +323,8 @@ footer {
 }
 
 .wrapper form .btn {
-  background-color: #fa9c23;
-  border-color: #fa9c23;
+  background-color: #fd0800;
+  border-color: #ff0000;
   color: white;
   margin-top: 2.5rem;
 }
@@ -387,7 +403,7 @@ footer {
 }
 
 .active-step {
-  background: #fa9c23;
+  background: #ff0000;
   color: #fff;
 }
 
@@ -395,7 +411,7 @@ footer {
   float: left;
   width: 0;
   border-top: 20px solid transparent;
-  border-left: 15px solid #fa9c23;
+  border-left: 15px solid #ff0000;
   border-bottom: 20px solid transparent;
   margin-left: -1px;
 }
@@ -403,9 +419,9 @@ footer {
 .triangle2-active {
   width: 0;
   float: left;
-  border-top: 20px solid #fa9c23;
+  border-top: 20px solid #ff0000;
   border-left: 15px solid #fff;
-  border-bottom: 20px solid #fa9c23;
+  border-bottom: 20px solid #ff0000;
   margin-right: -1px;
 }
 
@@ -445,8 +461,8 @@ footer {
 }
 
 #edit_profile {
-  background-color: #fa9c23;
-  border-color: #fa9c23;
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 
 /* Confirm Order */
@@ -457,8 +473,8 @@ footer {
 }
 
 .update-btn {
-  background-color: #fa9c23;
-  border-color: #fa9c23;
+  background-color: #fc0000;
+  border-color: #ff0000;
   color: white;
 }
 
@@ -468,16 +484,16 @@ footer {
 
 /* Pagination */
 .page-item.active .page-link {
-  background-color: #fa9c23;
-  border-color: #fa9c23;
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 
 .page-link {
-  color: #fa9c23;
+  color: #ff0800;
 }
 
 .page-link:hover {
-  color: #fa9c23;
+  color: #ff0000;
 }
 
 /* Admin Sidebar */
@@ -498,7 +514,7 @@ footer {
 #sidebar {
   min-width: 100%;
   max-width: 100%;
-  background: #232f3e;
+  background: #000000;
   color: #fff;
   transition: all 0.3s;
 }
@@ -512,7 +528,7 @@ footer {
 }
 #sidebar ul.components {
   padding: 5px 0px;
-  border-bottom: 1px solid #232f3e;
+  border-bottom: 1px solid #000000;
 }
 
 #sidebar ul li a {
@@ -523,7 +539,7 @@ footer {
   text-decoration: none;
 }
 #sidebar ul li a:hover {
-  color: #232f3e;
+  color: #020202;
   background: #fff;
 }
 
@@ -534,7 +550,7 @@ footer {
 #sidebar ul li.active > a,
 a[aria-expanded='true'] {
   color: #fff;
-  background: #232f3e;
+  background: #000000;
 }
 a[data-toggle='collapse'] {
   position: relative;
@@ -550,7 +566,7 @@ a[data-toggle='collapse'] {
 ul ul a {
   font-size: 1rem !important;
   padding-left: 30px !important;
-  background: #232f3e;
+  background: #000000;
 }
 
 ul.CTAs {
@@ -565,8 +581,8 @@ ul.CTAs a {
   margin-bottom: 5px;
 }
 
-/* Products List Admin */
-#products_table .btn {
+/* rolls List Admin */
+#rolls_table .btn {
   padding: 0.2rem 0.5rem;
   margin-left: 0.4rem;
 }
@@ -607,7 +623,7 @@ ul.CTAs a {
 }
 
 .yellow {
-  color: #fdcc0d;
+  color: #000000;
 }
 
 .review_user {

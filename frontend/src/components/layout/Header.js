@@ -32,8 +32,7 @@ const Header = () => {
 
                 <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
                     <Link to="/cart" style={{ textDecoration: 'none' }} >
-                        <span id="cart" className="ml-3">Cart</span>
-                        <span className="ml-1" id="cart_count">{cartItems.length}</span>
+                        <span className="ml-1" id="cart_count">Корзина: {cartItems.length}</span>
                     </Link>
                     {user ? (
                         <div className="ml-4 dropdown d-inline">
@@ -47,11 +46,10 @@ const Header = () => {
 
                             <div className="dropdown-menu" aria-labelledby="dropDownMenuButton">
 
-                                {user && user.role !== 'admin' ? (
-                                    <Link className="dropdown-item" to="/orders/me"> Заказы </Link>
-                                ) : (
-                                    <Link className="dropdown-item" to="/dashboard"> Панель администратора </Link>
+                                {user && user.role === 'admin' && (
+                                     <Link className="dropdown-item" to="/dashboard"> Панель администратора </Link>
                                 )}
+                                <Link className="dropdown-item" to="/orders/me"> Заказы </Link>
                                 <Link className="dropdown-item" to="/me"> Профиль </Link>
                                 <Link className="dropdown-item text-danger" to="/" onClick={logoutHandler}>
                                     Выйти

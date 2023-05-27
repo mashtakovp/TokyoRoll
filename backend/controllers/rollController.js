@@ -40,6 +40,18 @@ exports.getRolls = catchAsyncErrors(async (req, res, next) => {
     })
 })
 
+// Get all products (Admin)  =>   /api/v1/admin/rolls
+exports.getAdminRolls = catchAsyncErrors(async (req, res, next) => {
+
+    const rolls = await Roll.find();
+
+    res.status(200).json({
+        success: true,
+        rolls
+    })
+
+})
+
 // Get single roll details => /api/v1/roll/:id
 exports.getSingleRoll = catchAsyncErrors(async(req, res, next) => {
     const roll = await Roll.findById(req.params.id)

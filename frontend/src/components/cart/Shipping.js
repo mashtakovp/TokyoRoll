@@ -39,9 +39,9 @@ const Shipping = () => {
             <div className="row wrapper">
                 <div className="col-10 col-lg-5">
                     <form className="shadow-lg" onSubmit={submitHandler}>
-                        <h1 className="mb-4">Shipping Info</h1>
+                        <h1 className="mb-4">Данные для доставки:</h1>
                         <div className="form-group">
-                            <label htmlFor="address_field">Address</label>
+                            <label htmlFor="address_field">Улица</label>
                             <input
                                 type="text"
                                 id="address_field"
@@ -53,7 +53,7 @@ const Shipping = () => {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="city_field">City</label>
+                            <label htmlFor="city_field">Город</label>
                             <input
                                 type="text"
                                 id="city_field"
@@ -65,7 +65,7 @@ const Shipping = () => {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="phone_field">Phone No</label>
+                            <label htmlFor="phone_field">Телефон (моб.)</label>
                             <input
                                 type="phone"
                                 id="phone_field"
@@ -77,7 +77,7 @@ const Shipping = () => {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="postal_code_field">Postal Code</label>
+                            <label htmlFor="postal_code_field">Дом</label>
                             <input
                                 type="number"
                                 id="postal_code_field"
@@ -89,7 +89,7 @@ const Shipping = () => {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="country_field">Country</label>
+                            <label htmlFor="country_field">Страна</label>
                             <select
                                 id="country_field"
                                 className="form-control"
@@ -112,7 +112,7 @@ const Shipping = () => {
                             type="submit"
                             className="btn btn-block py-3"
                         >
-                            CONTINUE
+                            ПРОДОЛЖИТЬ
                             </button>
                     </form>
                 </div>
